@@ -30,6 +30,19 @@
     self.topProgress.doubleValue = self.topSlider.doubleValue;
 }
 
+- (IBAction)recessedAction:(NSButtonCell *)sender {
+    if ([sender intValue] == 0) {
+        [sender setIntValue:1];
+        return;
+    } else {
+        if ([[sender title] isEqualToString:@"Left"]) {
+            [self.exampleRecessedRight setIntValue:0];
+        } else {
+        [self.exampleRecessedLeft setIntValue:0];
+        }
+    }
+}
+
 - (IBAction)bottomAction:(NSSliderCell *)sender {
     self.bottomProgress.doubleValue = self.bottomSlider.doubleValue;
 }
@@ -55,7 +68,8 @@
     [self.exampleTriangle setEnabled:enable];
     [self.exampleImageButton setEnabled:enable];
     [self.exampleRoundRect setEnabled:enable];
-    [self.exampleRecessedButton setEnabled:enable];
+    [self.exampleRecessedLeft setEnabled:enable];
+    [self.exampleRecessedRight setEnabled:enable];
     [self.exampleInlineButton setEnabled:enable];
     [self.exampleTexturedButton setEnabled:enable];
     [self.exampleGradientButton setEnabled:enable];
