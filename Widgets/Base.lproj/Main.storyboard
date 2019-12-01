@@ -793,7 +793,7 @@
                                                     </connections>
                                                 </button>
                                                 <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bLX-Sz-viF">
-                                                    <rect key="frame" x="301" y="236" width="61" height="18"/>
+                                                    <rect key="frame" x="301" y="278" width="61" height="18"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                     <buttonCell key="cell" type="check" title="Check" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="U4j-oT-joA">
                                                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -801,7 +801,7 @@
                                                     </buttonCell>
                                                 </button>
                                                 <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kza-db-XnC">
-                                                    <rect key="frame" x="301" y="369" width="77" height="25"/>
+                                                    <rect key="frame" x="301" y="369" width="84" height="25"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                     <popUpButtonCell key="cell" type="push" title="Item 1" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="VPG-Ld-7zi" id="yHR-dV-cWZ">
                                                         <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
@@ -848,7 +848,7 @@
                                                     </buttonCell>
                                                 </button>
                                                 <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8kV-NG-HJM">
-                                                    <rect key="frame" x="107" y="229" width="125" height="23"/>
+                                                    <rect key="frame" x="106.5" y="229" width="125" height="23"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                     <buttonCell key="cell" type="roundTextured" title="Textured Rounded" bezelStyle="texturedRounded" alignment="center" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="jzN-eR-ERf">
                                                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -856,7 +856,7 @@
                                                     </buttonCell>
                                                 </button>
                                                 <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7z0-ec-YXr">
-                                                    <rect key="frame" x="107" y="329" width="43" height="17"/>
+                                                    <rect key="frame" x="107" y="329" width="54" height="17"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                     <buttonCell key="cell" type="inline" title="Inline" bezelStyle="inline" alignment="center" borderStyle="border" inset="2" id="K0B-tB-46P">
                                                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -864,7 +864,7 @@
                                                     </buttonCell>
                                                 </button>
                                                 <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sA9-WV-9Z0">
-                                                    <rect key="frame" x="303" y="303" width="43" height="19"/>
+                                                    <rect key="frame" x="303" y="329" width="60" height="19"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                     <buttonCell key="cell" type="recessed" title="Left" bezelStyle="recessed" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="aZj-CV-Zg7">
                                                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES" changeBackground="YES" changeGray="YES"/>
@@ -893,17 +893,6 @@
                                                         </connections>
                                                     </buttonCell>
                                                 </button>
-                                                <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4mZ-oP-bcb">
-                                                    <rect key="frame" x="366" y="303" width="47" height="19"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                                    <buttonCell key="cell" type="recessed" title="Right" bezelStyle="recessed" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Eh4-hI-yrX">
-                                                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                                        <font key="font" metaFont="systemBold" size="12"/>
-                                                        <connections>
-                                                            <action selector="recessedAction:" target="XfG-lQ-9wD" id="4FB-XX-vlA"/>
-                                                        </connections>
-                                                    </buttonCell>
-                                                </button>
                                                 <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fza-M8-Qwl">
                                                     <rect key="frame" x="302" y="146" width="76" height="18"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
@@ -914,6 +903,17 @@
                                                     <connections>
                                                         <action selector="radio:" target="XfG-lQ-9wD" id="DBZ-cA-mLb"/>
                                                     </connections>
+                                                </button>
+                                                <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4mZ-oP-bcb">
+                                                    <rect key="frame" x="371" y="329" width="60" height="19"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                                    <buttonCell key="cell" type="recessed" title="Right" bezelStyle="recessed" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Eh4-hI-yrX">
+                                                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                                        <font key="font" metaFont="systemBold" size="12"/>
+                                                        <connections>
+                                                            <action selector="recessedAction:" target="XfG-lQ-9wD" id="4FB-XX-vlA"/>
+                                                        </connections>
+                                                    </buttonCell>
                                                 </button>
                                             </subviews>
                                         </view>
